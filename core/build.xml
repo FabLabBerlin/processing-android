@@ -26,7 +26,7 @@
     <taskdef name="methods" 
 	     classname="PAppletMethods" 
 	     classpath="${processing.dir}/core/methods/methods.jar" />
-    <methods dir="${basedir}/src/processing/core" recorder="false" />
+    <methods dir="${basedir}/src/processing/core" recorder="true" />
 
     <mkdir dir="bin" />
     <javac source="1.6" 
